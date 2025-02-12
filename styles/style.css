@@ -7,6 +7,13 @@
     font-weight: 400;
     font-style: normal;
   }
+  .back-mama1{
+    background-color: yellow;
+
+  }
+  .back-mama2{
+    background-color: tomato;
+  }
   .orange{
     color: orange;
   }
@@ -48,8 +55,9 @@ hr{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: 50px auto 0px;
   width: 1100px;
+
 }
 .navi1{
   display: flex;
@@ -220,14 +228,14 @@ border-radius: 47.93px;
 
 background: rgb(60, 216, 232);
 position: relative;
-top: -190px;
+top: -210px;
 /* top: 5px; */
   }
   .btn2{
     width: 154.51px;
 height: 40.93px;
 left: 38.35px;
-top: 314.14px;
+top: 280.14px;
 border-radius: 47.93px;
 color: white;
 border-radius: 47.93px;
@@ -235,7 +243,10 @@ border-radius: 47.93px;
 
 background: rgb(149, 178, 38);
 position: relative;
-top: -100px;
+top: -110px;
+  }
+  .back{
+    background: blue;
   }
   .ft{
     font-size: 24px;
@@ -293,8 +304,42 @@ font-size: 11px;
   .boso{
     text-align: center;
     margin: 50px;
+    padding: 20px
   }
   /* fifth section styles */
+  .kids{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 42.14px;
+font-weight: 700;
+  }
+  .bg-2{
+    background: rgb(1, 172, 253);
+  }
+  .kisi{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .golo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 399.02px;
+    padding-left: 30px;
+  }
+  .fifth{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 0 auto;
+    width: 1100px;
+  }
+  .img-gap{
+    display: flex;
+    gap: 10px;
+  }
+   
   /* sixth section styles */
   /* seventh section styles */
 
@@ -317,13 +362,15 @@ font-size: 11px;
     }
     hr{
       display: block;
+      
+      
     }
     .second{
       display: flex;
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
-      margin:  0px auto;
+      margin: 0 auto;
       /* max-width: fit-content; */
     }
     .textempow{
@@ -348,7 +395,12 @@ font-size: 11px;
       justify-content: center;
       margin: 0 auto;
       gap: 20px;
+      padding: 200px;
       
+    }
+    .fifth{
+      flex-direction: column;
+      padding: 30px;
     }
     
     
