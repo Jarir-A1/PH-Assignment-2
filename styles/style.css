@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* shared styles */
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .orange{
+    color: orange;
+  }
+  .blue{
+    color: rgb(1, 172, 253);
+  }
+  .green{
+    color: rgb(149, 178, 38);
+  }
+  .sky{
+    color: rgb(60, 216, 232);
+  }
+
+  /* first section styles */
+  .school{
+    font-size: 20px;
+font-weight: 600;
+  }
+.text1{
+    font-size: 15px;
+font-weight: 700;
+}
+.contact{
+  border-radius: 6px;
+
+/* Orange */
+background: rgb(254, 163, 1);
+width: 170px;
+height: 50px;
+color: rgb(255, 255, 255);
+border-color: rgb(254, 163, 1);
+}
+
+hr{
+  display: none;
+}
+
+.first{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1100px;
+}
+.navi1{
+  display: flex;
+  gap: 30px;
+}
+.hide{
+  display: none;
+}
+
+  /* second section styles */
+  .enroll{
+    border-radius: 6px;
+
+/* Black */
+background: rgb(17, 17, 17);
+color: rgb(255, 255, 255);
+width: 147px;
+height: 30px;
+  }
+  .second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1100px;
+    gap: 20px;
+
+
+  }
+  .empower{
+    font-size: 56px;
+font-weight: 700;
+margin-bottom: 0%;
+
+
+  }
+  .textempow{
+    width: 640px;
+
+   
+  }
+  /* third section styles */
+  .standard{
+    font-size: 46px;
+font-weight: 700;
+  }
+  .third{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0 auto;
+  width: 1100px;
+
+  }
+  .card-container{
+    display: flex;
+    gap: 20px;
+   
+  }
+
+  .card1{
+    box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 30px;
+text-align: center;
+
+
+
+  }
+.card2{
+  box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 30px;
+text-align: center;
+  
+}
+.card3{
+  box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 30px;
+text-align: center;
+}
+.txt-para{
+  color: rgb(128, 128, 128);
+}
+.modify{
+  text-decoration: none;
+}
+.btn1{
+  width: 60px;
+height: 60px;
+  border-radius: 90px;
+
+/* Orange */
+background: rgb(254, 163, 1);
+color: white;
+border-color: rgb(254, 163, 1) ;
+
+}
+.btn{
+  margin: 100px;
+}
+.bg{
+  background-image: url('../bg.png');
+  /* background-color: tomato; */
+}
+.bg1{
+  background: url('../bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+  /* fourth section styles */
+
+  .story-box-b{
+    display: none;
+  }
+  .story-big-1{
+    width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+
+background: rgb(255, 255, 255);
+  }
+  
+  
+  .story-box-a{
+    display: flex;
+    gap: 20px;
+
+  }
+  .rest{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .btn-1{
+    width: 154.51px;
+height: 40.93px;
+left: 38.35px;
+top: 314.14px;
+border-radius: 47.93px;
+color: white;
+border-radius: 47.93px;
+
+background: rgb(60, 216, 232);
+position: relative;
+top: -190px;
+/* top: 5px; */
+  }
+  .btn2{
+    width: 154.51px;
+height: 40.93px;
+left: 38.35px;
+top: 314.14px;
+border-radius: 47.93px;
+color: white;
+border-radius: 47.93px;
+border-radius: 47.93px;
+
+background: rgb(149, 178, 38);
+position: relative;
+top: -100px;
+  }
+  .ft{
+    font-size: 24px;
+font-weight: 700;
+  }
+  .fourth{
+    margin: 0 auto;
+    width: 1100px;
+    
+  }
+  .ttl2{
+    text-align: center;
+  }
+  ttlx{
+    font-size: 15.34px;
+font-weight: 700;
+  }
+  .story-big-2{
+    width: 290.69px;
+height: 301.61px;
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+  }
+  .view{
+    width: 197px;
+height: 50px;
+    border-radius: 12px;
+    
+
+/* Black */
+background: rgb(17, 17, 17);  
+color: white;
+margin: auto auto   ;
+  }
+  .story-mini{
+    width: 197px;
+border-radius: 9.53px;
+
+background: rgb(255, 255, 255); 
+  }
+  .hello{
+    font-size: 12px;
+font-weight: 700;
+  }
+  .mono{
+    width: 103.91px;
+
+border-radius: 28.54px;
+
+background: rgb(93, 88, 240);
+color: white;
+font-size: 11px;
+  }
+  .boso{
+    text-align: center;
+    margin: 50px;
+  }
+  /* fifth section styles */
+  /* sixth section styles */
+  /* seventh section styles */
+
+
+
+
+
+  /* small device styles */
+  @media screen and (max-width: 576px) {
+    .navi, .contact1, .btn, .story-box-a {
+      display: none;
+    }
+    .hide, .story-box-b{
+      display: block;
+    }
+    .first{
+      display: flex;
+      justify-content: space-around;
+      
+    }
+    hr{
+      display: block;
+    }
+    .second{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      margin:  0px auto;
+      /* max-width: fit-content; */
+    }
+    .textempow{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center ;
+    }
+    .third{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .card-container{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-content: center;
+    }
+    .story-box-b{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      justify-content: center;
+      margin: 0 auto;
+      gap: 20px;
+      
+    }
+    
+    
+    
+   
+    
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  
