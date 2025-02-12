@@ -291,9 +291,13 @@ background: rgb(255, 255, 255);
   .hello{
     font-size: 12px;
 font-weight: 700;
+padding: 10px 20px;
   }
   .mono{
     width: 103.91px;
+    position: relative;
+    top: -90px;
+    left: 10px;
 
 border-radius: 28.54px;
 
@@ -396,6 +400,7 @@ font-weight: 700;
       margin: 0 auto;
       gap: 20px;
       padding: 200px;
+
       
     }
     .fifth{
